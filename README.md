@@ -145,6 +145,7 @@ Materi panduan ASI dan tumbuh kembang anak dalam aplikasi ini dirangkum dari ber
 
 - **sofiamawaddah** 
 - **muhammadsyabriannur**
+- **daniel**
 
 ---
 
