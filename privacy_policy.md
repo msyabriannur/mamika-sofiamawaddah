@@ -21,7 +21,7 @@ Aplikasi mungkin menyertakan tautan ke situs web eksternal (seperti referensi da
 Keamanan data Anda sangat bergantung pada keamanan perangkat Anda sendiri, karena semua data hanya tersimpan secara lokal di ponsel Anda. Kami menyarankan Anda untuk melindungi perangkat Anda dengan kata sandi (password) atau fitur keamanan lain agar data aplikasi tidak dapat diakses oleh orang yang tidak berhak.
 
 ## 5. Anak-Anak
-Aplikasi ini ditujukan untuk orang tua. Kami tidak secara sengaja mengumpulkan informasi dari anak-anak di bawah usia 13 tahun ke server kami, mengingat semua data hanya disimpan di perangkat lokal milik orang tua.
+Aplikasi ini ditujukan untuk orang tua. Kami tidak mengumpulkan informasi dari anak-anak di bawah usia 13 tahun menginstall aplikasi ini, mengingat semua data hanya disimpan di perangkat lokal milik orang tua.
 
 ## 6. Perubahan Kebijakan Privasi
 Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Jika ada perubahan signifikan, kami akan memperbarui tanggal "Terakhir diperbarui" di bagian atas halaman ini.
