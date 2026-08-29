@@ -1,5 +1,5 @@
 # 🤱 MAMIKA — Sahabat Setia Perjalanan Mengasihi Bunda
-
+https://github.com/msyabriannur/mamika-sofiamawaddah/blob/main/assets/images/app_icon.jpg
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0.0-teal?style=for-the-badge" alt="Version"/>
   <img src="https://img.shields.io/badge/platform-Android%20%7C%20iOS-green?style=for-the-badge" alt="Platform"/>
