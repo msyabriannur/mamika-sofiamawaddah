@@ -28,5 +28,5 @@ Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Jika ada perub
 
 ## 7. Kontak
 Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi kami di:
-- **Email:** [Alamat Email Anda]
-- **Nomor Telepon/WhatsApp:** [Nomor Telepon Anda]
+- **Email:** [zabrol@gmail.com]
+- **Nomor Telepon/WhatsApp:** [081349208500]
