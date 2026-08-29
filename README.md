@@ -36,7 +36,7 @@
 
 ## 🌟 Tentang Aplikasi
 
-**Mamika** adalah aplikasi mobile cross-platform (Android & iOS) yang dirancang khusus untuk mempermudah para ibu dalam menjalani fase menyusui. Aplikasi ini membantu mencatat durasi menyusui, memantau asupan nutrisi ibu, serta melacak pertumbuhan si kecil dari hari ke hari.
+**Mamika** adalah aplikasi mobile cross-platform (Android & iOS) yang dirancang khusus untuk mempermudah para ibu dalam menjalani fase menyusui. Aplikasi ini membantu mengetahui durasi menyusui, memantau asupan nutrisi ibu, serta medeteksi pertumbuhan si kecil dari hari ke hari.
 
 Dengan antarmuka yang ramah pengguna, Mamika hadir sebagai sahabat yang siap membantu Bunda memastikan si kecil mendapatkan nutrisi terbaik sekaligus menjaga kesehatan Bunda sendiri.
 
@@ -56,7 +56,7 @@ Pencatatan asupan makanan dan minuman (hidrasi) Bunda untuk memastikan produksi 
 Panduan komprehensif mengenai cara memompa, menyimpan, dan mencairkan ASI (Air Susu Ibu) perah dengan benar sesuai standar kesehatan.
 
 ### 📈 Pertumbuhan Bayi
-Fitur pemantauan untuk melacak berat badan, panjang badan, dan perkembangan anak secara berkala menggunakan grafik pertumbuhan (didukung oleh `fl_chart`).
+Fitur pemantauan untuk melacak berat badan, panjang badan, dan perkembangan anak secara berkala menggunakan grafik pertumbuhan (didukung oleh `flow_chart`).
 
 ### 👩‍⚕️ Tanya Ahli & Catatan
 - **Tanya Ahli** — Akses informasi dan panduan terpercaya dari para ahli seputar laktasi dan tumbuh kembang anak.
@@ -66,7 +66,7 @@ Fitur pemantauan untuk melacak berat badan, panjang badan, dan perkembangan anak
 
 ## 📱 Screenshot
 
-> *(Tambahkan screenshot aplikasi di sini)*
+> //*(Tambahkan screenshot aplikasi di sini)*//
 
 | Dashboard | Timer Menyusui | Pertumbuhan Bayi | Panduan ASI |
 |:---:|:---:|:---:|:---:|
