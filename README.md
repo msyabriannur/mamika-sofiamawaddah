@@ -1,4 +1,4 @@
-# 🤱 MAMIKA — Sahabat Setia Perjalanan Mengasihi Bunda
+# 🤱 MAMIKA — Sahabat Setia Perjalanan Bunda Mengasihi Anak
 
 <p align="center">
   <img src="assets/images/app_icon.jpg" alt="Mamika Logo" width="120"/>
