@@ -1,7 +1,7 @@
 PROPRIETARY SOFTWARE LICENSE
 
 Copyright (c) 2026 sofiamawaddah
-Dikembangkan oleh: sofiamawaddah
+Dikembangkan oleh: m.syabriannur & daniel
 
 Semua hak dilindungi undang-undang.
 
