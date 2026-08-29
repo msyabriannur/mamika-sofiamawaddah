@@ -1,0 +1,162 @@
+Initialized native services in: /home/zabrol/.gradle/native
+Initialized jansi services in: /home/zabrol/.gradle/native
+Received JVM installation metadata from '/usr/lib/jvm/java-21-openjdk-amd64': {JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64, JAVA_VERSION=21.0.11, JAVA_VENDOR=Ubuntu, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.11+10-1-24.04.2-Ubuntu, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.11+10-1-24.04.2-Ubuntu, VM_VENDOR=Ubuntu, OS_ARCH=amd64}
+Found daemon DaemonInfo{pid=112915, address=[e4caac63-8b48-4503-9e7e-dccfc234c982 port:40563, addresses:[/127.0.0.1]], state=Idle, lastBusy=1786297980982, context=DefaultDaemonContext[uid=0793dd30-2861-4c30-ab87-06d9977ebada,javaHome=/usr/lib/jvm/java-17-openjdk-amd64,daemonRegistryDir=/home/zabrol/.gradle/daemon,pid=112915,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+Java home is different.
+Wanted: DefaultDaemonContext[uid=null,javaHome=/usr/lib/jvm/java-21-openjdk-amd64,daemonRegistryDir=/home/zabrol/.gradle/daemon,pid=114459,idleTimeout=null,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Actual: DefaultDaemonContext[uid=0793dd30-2861-4c30-ab87-06d9977ebada,javaHome=/usr/lib/jvm/java-17-openjdk-amd64,daemonRegistryDir=/home/zabrol/.gradle/daemon,pid=112915,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 114210). The daemon log file: /home/zabrol/.gradle/daemon/8.4/daemon-114210.out.log
+Starting 2nd build in daemon [uptime: 39.954 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 3% of 4 GiB]
+Closing daemon's stdin at end of input.
+The daemon will no longer process any standard input.
+Using 8 worker leases.
+Now considering [/opt/lampp/htdocs/mamika/android, /home/zabrol/snap/flutter/common/flutter/packages/flutter_tools/gradle] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Now considering [/home/zabrol/snap/flutter/common/flutter/packages/flutter_tools/gradle, /opt/lampp/htdocs/mamika/android] as hierarchies to watch
+
+> Configure project :gradle
+Evaluating project ':gradle' using build file '/home/zabrol/snap/flutter/common/flutter/packages/flutter_tools/gradle/build.gradle.kts'.
+Build 88c67066-ba29-4683-b5fd-da8708ed9cdd is started
+Using Kotlin Gradle Plugin gradle82 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `1.9.10` that might work differently than in the requested version `2.2.20`.
+file or directory '/home/zabrol/snap/flutter/common/flutter/packages/flutter_tools/gradle/src/main/java', not found
+Caching disabled for Kotlin DSL accessors for project ':gradle' because:
+  Build cache is disabled
+Skipping Kotlin DSL accessors for project ':gradle' as it is up-to-date.
+Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#139,Execution worker,5,main]) started.
+:gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#139,Execution worker,5,main]) started.
+
+> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :gradle:compileKotlin (Thread[#139,Execution worker,5,main]) started.
+:gradle:compileKotlin (Thread[#139,Execution worker,5,main]) started.
+
+> Task :gradle:compileKotlin UP-TO-DATE
+Transforming gradle-api-8.4.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming groovy-3.0.17.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming groovy-ant-3.0.17.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming groovy-astbuilder-3.0.17.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming groovy-console-3.0.17.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming groovy-datetime-3.0.17.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming groovy-dateutil-3.0.17.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming groovy-groovydoc-3.0.17.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming groovy-json-3.0.17.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming groovy-nio-3.0.17.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming groovy-sql-3.0.17.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming groovy-templates-3.0.17.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming groovy-test-3.0.17.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming groovy-xml-3.0.17.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming javaparser-core-3.17.0.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-stdlib-1.9.10.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-stdlib-common-1.9.10.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-reflect-1.9.10.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming gradle-installation-beacon-8.4.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming gradle-kotlin-dsl-extensions-8.4.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming gradle-kotlin-dsl-8.4.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming gradle-kotlin-dsl-tooling-models-8.4.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming annotation-jvm-1.9.1.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming gradle-8.11.1.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-reflect-1.9.10.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlinx-serialization-json-jvm-1.4.0.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlinx-serialization-core-jvm-1.4.0.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-stdlib-jdk8-1.9.10.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-stdlib-jdk7-1.9.10.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-stdlib-1.9.24.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-gradle-plugin-model-2.0.0.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-gradle-plugin-api-2.0.0.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-gradle-plugin-2.0.0-gradle82.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming builder-8.11.1.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming builder-model-8.11.1.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming gradle-api-8.11.1.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming annotations-13.0.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming manifest-merger-31.11.1.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming zipflinger-8.11.1.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming apksig-8.11.1.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming apkzlib-8.11.1.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming javawriter-2.5.0.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming asm-9.7.1.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-gradle-plugin-annotations-2.0.0.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-native-utils-2.0.0.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-tooling-core-2.0.0.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-util-klib-2.0.0.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Transforming kotlin-util-io-2.0.0.jar with BuildToolsApiClasspathEntrySnapshotTransform
+Caching disabled for task ':gradle:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle:compileKotlin' as it is up-to-date.
+Resolve mutations for :gradle:compileJava (Thread[#139,Execution worker,5,main]) started.
+:gradle:compileJava (Thread[#139,Execution worker,5,main]) started.
+
+> Task :gradle:compileJava NO-SOURCE
+Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :gradle:compileGroovy (Thread[#139,Execution worker,5,main]) started.
+:gradle:compileGroovy (Thread[#139,Execution worker,5,main]) started.
+
+> Task :gradle:compileGroovy NO-SOURCE
+Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+Resolve mutations for :gradle:pluginDescriptors (Thread[#139,Execution worker,5,main]) started.
+:gradle:pluginDescriptors (Thread[#139,Execution worker,5,main]) started.
+
+> Task :gradle:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':gradle:pluginDescriptors' because:
+  Build cache is disabled
+Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+Resolve mutations for :gradle:processResources (Thread[#139,Execution worker,5,main]) started.
+:gradle:processResources (Thread[#139,Execution worker,5,main]) started.
+
+> Task :gradle:processResources UP-TO-DATE
+Caching disabled for task ':gradle:processResources' because:
+  Build cache is disabled
+Skipping task ':gradle:processResources' as it is up-to-date.
+Resolve mutations for :gradle:classes (Thread[#139,Execution worker,5,main]) started.
+:gradle:classes (Thread[#139,Execution worker,5,main]) started.
+
+> Task :gradle:classes UP-TO-DATE
+Skipping task ':gradle:classes' as it has no actions.
+Resolve mutations for :gradle:jar (Thread[#139,Execution worker,5,main]) started.
+:gradle:jar (Thread[#139,Execution worker,5,main]) started.
+
+> Task :gradle:jar UP-TO-DATE
+Caching disabled for task ':gradle:jar' because:
+  Build cache is disabled
+Skipping task ':gradle:jar' as it is up-to-date.
+Settings evaluated using settings file '/opt/lampp/htdocs/mamika/android/settings.gradle.kts'.
+Projects loaded. Root project using build file '/opt/lampp/htdocs/mamika/android/build.gradle.kts'.
+Included projects: [root project 'android', project ':app', project ':jni', project ':jni_flutter', project ':url_launcher_android']
+
+> Configure project :app
+Evaluating project ':app' using build file '/opt/lampp/htdocs/mamika/android/app/build.gradle.kts'.
+
+> Configure project :
+Evaluating root project 'android' using build file '/opt/lampp/htdocs/mamika/android/build.gradle.kts'.
+Caching disabled for Kotlin DSL accessors for root project 'android' because:
+  Build cache is disabled
+Skipping Kotlin DSL accessors for root project 'android' as it is up-to-date.
+Build 88c67066-ba29-4683-b5fd-da8708ed9cdd is closed
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/opt/lampp/htdocs/mamika/android/app/build.gradle.kts' line: 1
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'com.android.application']
+> Failed to apply plugin 'com.android.internal.application'.
+   > Failed to create service 'com.android.build.gradle.internal.services.AndroidLocationsBuildService_e1593a51-288b-4b89-898f-a889187123d3'.
+      > Could not create an instance of type com.android.build.gradle.internal.services.AndroidLocationsBuildService.
+         > Could not create provider for value source AndroidLocationsBuildService.AndroidDirectoryCreator.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1s
+4 actionable tasks: 4 up-to-date
