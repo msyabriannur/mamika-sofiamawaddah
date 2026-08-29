@@ -143,8 +143,8 @@ Materi panduan ASI dan tumbuh kembang anak dalam aplikasi ini dirangkum dari ber
 
 ## 👥 Tim Pengembang
 
-- **msyabriannur** 
-- **sofiamawaddah**
+- **sofiamawaddah** 
+- **muhammadsyabriannur**
 
 ---
 
